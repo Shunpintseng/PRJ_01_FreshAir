@@ -1,7 +1,7 @@
 
 /* Main body color */
 body {
-    background: rgba(8, 167, 3, 0.568);
+    background:#eaf2d5;
     display: flex;
     min-height: 100vh;
     flex-direction: column;    
@@ -10,35 +10,40 @@ body {
 main {
     flex: 1 0 auto;
   }
-
+.row {
+    justify-content: center;
+}
 /* logo sizing */
 .brand-logo {
-    margin-top: 10px;
-    margin-left: 5px;
-    padding: 10px;
-    max-width: 160px;
-    max-height: 160px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding:5%;
+    max-width: 200px;
+    
 }
 
 /* navbar styling */
 .nav-wrapper {
-    background: rgb(228, 201, 46) !important;
+    background: #bdd483 !important;
     margin-bottom: 0px;
-    padding-bottom: 5px;
+    padding-top: 1%;
+    padding-bottom: 0.1%;
 }
 
+
 #advisories-btn {
-    margin-top: 3px;
+    margin-top: 1%;
+    margin-bottom: 1%
 }
 
 /* modal styling */
 #modalHeader {
     font-weight: 900;
-    color: rgb(175, 40, 17);
+    color: rgb(17, 49, 28);
 }
 
 .modal {
-    max-height: 100% !important ;
+    max-height:80% !important ;
     overflow: visible;
     color: #333;
     background-color: rgba(168, 219, 219, 0.877);
@@ -50,8 +55,8 @@ main {
 #searchBar{
     margin-top:0;
     margin-bottom: 0;
-    padding: 1rem;
-    background-color: rgba(240, 165, 27, 0.959);
+    padding: 1.5rem;
+    background-color: rgba(56, 94, 76, 0.315);
 }
 
 /* used to hide the inactive cards */
@@ -61,7 +66,7 @@ main {
 
 #location-input {
     color: white;
-    font-size: 20px;
+    font-size: 5%;
     font-weight: bold;
 }
 
@@ -70,15 +75,15 @@ main {
 
 /* generic btn styling */
 .btn {
-    border-radius: 20px;
-    background-color: rgb(243, 80, 39);
+    border-radius: 5px;
+    background-color: rgba(54, 71, 56, 0.815);
     font-weight: bold;
 }
 
 /* HIKING/BEER Tab styling  */
 .tab-container {
     padding: 20px;
-    background-color: rgba(69, 186, 221, 0.979);
+    background-color: rgba(189, 197, 159, 0.685);
     border-radius: 0px 0px 55px 0px;
     box-shadow: 0px 0px 0 rgba(0, 0, 0, 0.301), 0 3px 10px 0 rgba(0, 0, 0, 0.274);
 }
@@ -86,11 +91,11 @@ main {
 .tab-btn {
     padding-left: 30%;
     padding-right: 30%;
-    background-color: rgba(20, 98, 214, 0.438);
+    background-color: rgba(38, 53, 41, 0.507);
 }
 /* used to get around materialized active class */
 .active{
-    background-color: palevioletred;
+    background-color: rgb(68, 63, 37);
 }
 
 /* Placeholder font styling  */
@@ -103,26 +108,27 @@ main {
     font-weight: bold;
 }
 .card {
-    background-color: rgba(224, 250, 231, 0.822);
+    
+    background-color: rgba(189, 199, 192, 0.822);
 }
 
 .beer-results {
-    max-width: 600px;
+    max-width: 80%;
 } 
 
 .hiking-results {
-    max-width: 600px;
+    max-width: 80%;
 }
 
 
 /* Footer styling */
 .page-footer {
-    background-color: rgb(211, 177, 24);
+    background-color:#bdd483;
     margin-bottom: 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.74), 20px 20px 50px 0 rgba(0, 0, 0, 0.637);  
 }
 
 #footer-logo {
-    max-width: 200px;
+    max-width: 150px;
     margin-top: 5px;
 }
